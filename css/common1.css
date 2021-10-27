@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 全ファイルに適用するコードを書く */
+body {
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-break: break-all;   /* 規定のスペースに文字が来たら改行を促す*/
+    color: #555;
+}
+
+a {
+    /* 装飾の指定なし */
+    text-decoration: none;
+    color: #555;
+}
+
+li {
+    /* ・○○
+       ・○○　の点を付けない */
+    list-style: none;
+}
